@@ -58,24 +58,47 @@
 //------------------------------------------------------------------------------------------
 
 
-let naissance = prompt ("quel est votre date de naissance") ;
-let pointure = prompt ("quel est t'as pointure") ;
+// let naissance = prompt ("quel est votre date de naissance") ;
+// let pointure = prompt ("quel est t'as pointure") ;
 
-alert ((((Number(pointure) *2)+5 )*50) - (naissance) + 1766)
+// alert ((((Number(pointure) *2)+5 )*50) - (naissance) + 1766)
 
-//-------------------------------------------------------------------------------------------
+// //-------------------------------------------------------------------------------------------
 
-let calculPN = (Number(pointure) *2 )
-let calcul1 = (calculPN + 5)
-let calcul2 = (calcul1*50)
-let calcul3 = (calcul2 - Number(naissance))
-let calcul4 = (calcul3 + 1766)
+// let calculPN = (Number(pointure) *2 )
+// let calcul1 = (calculPN + 5)
+// let calcul2 = (calcul1*50)
+// let calcul3 = (calcul2 - Number(naissance))
+// let calcul4 = (calcul3 + 1766)
 
-alert (calcul4)
+// alert (calcul4)
 
 //---------------------------------------------------------------------------------------------
 
 //le prompt ne crée que des string donc forcer le int avec ex : Number(pointure)
+
+//---------------------------------------------------------------------------------------------
+
+let age = prompt("Quel est ton âge ?")
+
+if (age < 18  ) {
+alert ("Vous êtes mineur")
+window.close()
+}else {
+
+alert ("Vous êtes majeur ")
+
+}
+
+
+//----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
